@@ -7,6 +7,8 @@ NOTE: all this project is written in Python and implemented using PyCharm, Jupyt
 
 Project files:
 
+* BMֹ_25_from_index: class object that implement an index based on BM 25 score.
+
 * inverted_index_gcp: used to create an inverted index object. this is the base index object.
 
 * search_fronted: Used to create the server-side using flask, receive queries from clients and provide answers.
