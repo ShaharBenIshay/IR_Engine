@@ -3,6 +3,7 @@
 In this project we created an information retrival engine on all wikipedia files as part of our final project in "Information Retrival" course.
 For a given query our engine tries to find the most relevant wikipedia documents for this given query.
 In the Preproccess phase we used the help of the google storage cloud(GCP) and other python common libraries such as pandas, numpy and many more...
+
 NOTE: all this project is written in Python and implemented using PyCharm, JupyterNoteBook and GoogleColab.
 
 Project files:
