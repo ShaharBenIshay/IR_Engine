@@ -1,7 +1,7 @@
-INSTANCE_NAME="instance-2"
+INSTANCE_NAME="instance-final"
 REGION=us-central1
 ZONE=us-central1-a
-PROJECT_NAME="OmriShaharIRProject"
+PROJECT_NAME="omrishaharirproject"
 IP_NAME="$PROJECT_NAME-ip"
 GOOGLE_ACCOUNT_NAME="omrisgan" # without the @post.bgu.ac.il or @gmail.com part
 
@@ -19,7 +19,7 @@ gcloud compute addresses create $IP_NAME --project=$PROJECT_NAME --region=$REGIO
 gcloud compute addresses list
 # note the IP address printed above, that's your extrenal IP address.
 # Enter it here: 
-INSTANCE_IP="35.226.91.7"
+INSTANCE_IP="34.67.96.62"
 
 # 2. Create Firewall rule to allow traffic to port 8080 on the instance
 gcloud compute firewall-rules create default-allow-http-8080 \
